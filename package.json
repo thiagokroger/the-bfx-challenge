@@ -1,0 +1,25 @@
+{
+  "name": "bitfinex-server-challenge",
+  "version": "1.0.0",
+  "description": "Backend Service",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "simulation": "SIMULATION=true node src/server.js",
+    "test": "jest --coverage"
+  },
+  "author": "Thiago Kroger",
+  "license": "ISC",
+  "dependencies": {
+    "async-lock": "^1.4.0",
+    "grenache-grape": "^0.9.12",
+    "grenache-nodejs-http": "^0.7.13",
+    "grenache-nodejs-link": "^1.0.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2"
+  }
+}
